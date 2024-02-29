@@ -9,7 +9,7 @@ const Search = () => {
   let weatherResult = "";
 
   const API_URL = "https://api.openweathermap.org/data/2.5/weather";
-  const API_URL2 = "http://api.openweathermap.org/geo/1.0/direct";
+  const API_URL2 = "https://api.openweathermap.org/geo/1.0/direct";
   const API_Key = "55040a977cbc605fb71e1b763429876e";
 
   const getWeather = async () => {
